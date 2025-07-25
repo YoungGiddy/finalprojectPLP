@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "901504027950",
+    "project_id": "taifaradarapp",
+    "storage_bucket": "taifaradarapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:901504027950:android:53c7d29542d43f75dafebf",
+        "android_client_info": {
+          "package_name": "com.gideon.myflutterproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKvwqZOk1sxgDWSg3f72tZcnblPpJCQDo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

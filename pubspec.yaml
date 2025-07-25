@@ -1,8 +1,7 @@
 name: my_flutter_project
-description: "A new Flutter project."
+description: A new Flutter project.
 
 publish_to: 'none'
-
 version: 1.0.0+1
 
 environment:
@@ -12,18 +11,24 @@ dependencies:
   flutter:
     sdk: flutter
 
-  badges: ^3.1.1
-  google_fonts: ^6.2.1
+  # UI & Animations
   cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1
   lottie: ^2.7.0
+  badges: ^3.1.1
+
+  # 🔥 Firebase
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.1
+  cloud_firestore: ^4.17.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
+  change_app_package_name: ^1.1.0
 
 flutter:
   uses-material-design: true
-
   assets:
     - assets/animations/vote.json
