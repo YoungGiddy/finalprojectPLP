@@ -1,16 +1,51 @@
-# my_flutter_project
+ TaifaRadar App — Civic Education & Accountability Tool
 
-A new Flutter project.
+TaifaRadar is a civic education mobile app designed to empower Kenyan citizens through knowledge, accountability, and anonymous engagement.
 
-## Getting Started
+🎯 Core Features:
 
-This project is a starting point for a Flutter application.
+Learn & Earn: Users engage with civic education content and earn points. Accumulate enough and unlock badges.
 
-A few resources to get you started if this is your first Flutter project:
+Evaluate Leaders: Citizens can anonymously rate leaders based on real service delivery.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Voice Grievances: Verified voters can submit anonymous concerns directly through the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Secure & Anonymous: Voter verification ensures only real citizens participate, while anonymity guarantees freedom of expression.
+
+
+Execution Plan:
+
+✅ PHASE 1: Base Setup
+
+Initialize Flutter app
+
+[ ] Setup folder structure (lib/features)
+
+[ ] Connect to Firebase (auth + Firestore)
+
+
+✅ PHASE 2: Core Screens (Minimal UI to get us going)
+
+[ ] Onboarding / Auth Screen (Anon login / Verify voter)
+
+[ ] Home Screen (Overview of sections)
+
+[ ] Education Module (View topics, earn points)
+
+[ ] Feedback Module (Submit evaluation/grievance)
+
+[ ] Profile/Badges Screen
+
+
+
+---
+
+🧩 Tech Stack
+
+Flutter
+
+Firebase Auth (Anonymous Sign-in)
+
+Cloud Firestore (for storage)
+
+Firebase Analytic
